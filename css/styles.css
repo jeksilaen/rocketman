@@ -1,0 +1,241 @@
+body{
+  font-family: monospace;
+  color: #fff;
+  background-color: black;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 0 7%;
+}
+
+/* Header Section */
+#header .container-fluid{
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-size: 1.5rem;
+}
+
+.fa-rocket{
+  color: #16C60C;
+}
+
+.nav-item{
+  margin: 0 1.5rem 0;
+  line-height: 3.5;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.navbar-nav.ms-auto.mb-2.mb-lg-0 .nav-item a{
+  color: #16C60C;
+}
+
+/* Body Section */
+#body .container-fluid{
+  text-align: center;
+}
+
+/* landing-Page */
+
+.landing-page-title{
+  margin-bottom: 2.6rem;
+  font-size: 4rem;
+  color: white;
+}
+
+.landing-page-desc{
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+/* Start Button */
+.start-button{
+  font-weight: bolder;
+  margin-top: 4rem;
+  background-color: #16C60C;
+  color: black;
+  width: 15rem;
+}
+
+/* About Page */
+.about-div{
+  padding: 2rem 4rem;
+}
+
+.page-title{
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  background-color: #231F20;
+}
+
+.about-desc{
+  text-align: justify;
+  line-height: 2;
+}
+
+.about-link{
+  color: #16C60C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About details */
+.list-group{
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.rounded-pill{
+  background-color: #16C60C;
+}
+
+/* Projects page */
+.card{
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.project-button{
+  margin-top: 2rem;
+}
+
+.card-container{
+  margin-bottom: 3rem;
+}
+
+.project-picture{
+  width: 75%;
+  border-radius: 2%;
+  margin: 1rem auto;
+  height: 150px;
+}
+
+/* Connect Page */
+.form-desc{
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.form-input{
+  padding: 2rem 5rem;
+  text-align: left;
+  line-height: 3;
+}
+
+.submit-btn{
+  text-align: right;
+}
+
+.form-submit{
+  font-weight: bolder;
+  margin-top: 1rem;
+  background-color: #16C60C;
+  color: black;
+  width: 15rem;
+}
+
+/* Footer Section */
+footer{
+  text-align: center;
+}
+
+.footer-line{
+  border: none;
+  border-top: 5px solid white;
+  margin: 8rem auto 0;
+  width: 90%;
+}
+
+/* Social Media */
+.fa-brands{
+  margin: 4rem auto 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.copyright{
+  color: white;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}
+
+/* Landing page change */
+@media (max-width: 376px) {
+  .navbar-brand{
+    font-size: 120%;
+  }
+  .navbar-nav{
+    margin-top: 2rem;
+  }
+  .landing-page-title{
+    font-size: 3rem;
+  }
+  .landing-page-desc{
+    font-size: 1rem;
+  }
+}
+
+/* Start button width change */
+@media (max-width:625px) {
+  .start-button{
+    width: 80%;
+  }
+
+}
+
+@media (max-width:376px) {
+  .start-button{
+    font-size: 100%;
+  }
+
+}
+
+/* About desc padding change */
+@media (max-width:376px) {
+  .col-lg-6.col-md-6.about-div{
+    padding: 32px;
+  }
+
+}
+
+@media (max-width:321px) {
+  .col-lg-6.col-md-6.about-div{
+    padding: 16px;
+  }
+
+}
+
+/* Form edit */
+@media (max-width:426px) {
+  .form-desc{
+    font-size: 1rem;
+    padding: 0 2rem;
+  }
+  .form-input{
+    padding: 2rem 2rem;
+  }
+
+}
+
+@media (max-width:376px) {
+  .form-submit{
+    width: 12rem;
+  }
+
+}
+
+@media (max-width:321px) {
+  .form-submit{
+    width: 10rem;
+  }
+
+}
