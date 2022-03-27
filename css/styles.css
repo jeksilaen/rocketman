@@ -28,7 +28,7 @@ body{
   margin: 0 1.5rem 0;
   line-height: 3.5;
   font-size: 1.3rem;
-  text-align: center;
+  text-align: right;
 }
 
 .navbar-nav.ms-auto.mb-2.mb-lg-0 .nav-item a{
@@ -200,14 +200,14 @@ footer{
 }
 
 /* About desc padding change */
-@media (max-width:376px) {
+@media (max-width:550px) {
   .col-lg-6.col-md-6.about-div{
     padding: 32px;
   }
 
 }
 
-@media (max-width:321px) {
+@media (max-width:405px) {
   .col-lg-6.col-md-6.about-div{
     padding: 16px;
   }
