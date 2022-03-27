@@ -121,8 +121,10 @@ body{
 
 /* Connect Page */
 .form-desc{
-  margin-top: 2rem;
-  font-size: 1.3rem;
+  margin: 1rem 0 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 5rem;
 }
 
 .form-input{
@@ -215,16 +217,17 @@ footer{
 }
 
 /* Form edit */
-@media (max-width:426px) {
+@media (max-width:552px) {
   .form-desc{
-    font-size: 1rem;
-    padding: 0 2rem;
+    padding: 0 3.3rem;
+    text-align: justify;
   }
   .form-input{
-    padding: 2rem 2rem;
+    padding: 2rem 4rem;
   }
 
 }
+
 
 @media (max-width:376px) {
   .form-submit{
