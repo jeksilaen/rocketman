@@ -121,10 +121,8 @@ body{
 
 /* Connect Page */
 .form-desc{
-  margin: 1rem 0 1rem;
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 0 5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 .form-input{
@@ -217,17 +215,27 @@ footer{
 }
 
 /* Form edit */
-@media (max-width:552px) {
+@media (max-width:426px) {
   .form-desc{
-    padding: 0 3.3rem;
-    text-align: justify;
+    font-size: 1rem;
+    padding: 0 1rem;
   }
   .form-input{
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
   }
 
 }
 
+@media (max-width:426px) {
+  .form-desc{
+    font-size: 1rem;
+    padding: 0 2rem;
+  }
+  .form-input{
+    padding: 2rem 2rem;
+  }
+
+}
 
 @media (max-width:376px) {
   .form-submit{
