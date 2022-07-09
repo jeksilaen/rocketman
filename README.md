@@ -1,2 +1,2 @@
-https://jeksilaen.github.io/rocketman-v1/
+https://jeksilaen.github.io/rocketman/
 The greatest website you'll ever visit.
